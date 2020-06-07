@@ -2,6 +2,7 @@
 The repo deals with an more advanced version of Recommendation Systems which is based on two different popularly known filtering mechanisms which are the Content Based Filtering and Collaborative Based Filtering. In Content based Filtering the main focus is on the item characteristics and features which are used to predict other items of similar nature. 
 The main idea behind Collaborative based filtering is that we are given a matrix of preferences by users for items, and these are used to predict missing preferences and recommend items with high predictions. All we need in a dataset are the collection of user_ids and item_ids with user's preference for different items which maybe in the form of ratings or other parameters.
 
+![](images/recommender_system.png)
 
 # Dataset Details
 Dataset Details
@@ -49,6 +50,12 @@ views.csv - Views dataset contains the mapping which user views which post(s)
 
 # Conclusion
 Hence, a fully-functional recommender system in Python with content-based filtering as well as collaborative based filtering is implemented. A sample output for the given two recommender systems in shown below:
+## CONTENT-BASED RECOMMENDER ENGINE
+![](images/content_based.jpg)
+## COLLABORATIVE BASED RECOMMENDER ENGINE (ITEM-ITEM)
+![](images/collaborative_item.jpg)
+## COLLABORATIVE BASED RECOMMENDER ENGINE (USER-ITEM)
+![](images/collaborative_user.jpg)
 
 # Further Scope of Project
 The basic model of this project can be further extended to generate sophisticated recommendation results to users which will be more accurate and extensively based on the applications of both the type of filtering, it is named as Hybrid Filtering based Recommendation Systems. I look forward to implement the the Hybrid Recommendation System soon.
